@@ -1,25 +1,19 @@
-Address Filler
-===========================
+# Address Filler
 
-Description
----------------------------
+## Description
 
-Address filler is demo extension for Kitt. Its purpose is to allow user to fill address fields of current page by his actual location. The location is retrieved by a GPS module of user's phone.
-
-Usage
----------------------------
-
-<ol>
-    <li>Visit page with address fields.</li>
-    <li>Click on extension icon. You will be queried for your current location, so answer yes.</li>
-    <li>Address fields on your page should be filled with your current location.</li>
-</ol>
+Address Filler makes it quick and easy to fill in an address form with the address at your current location. It uses your phone's GPS support to determine the current location.
 
 
-Limitations
----------------------------
+## Usage
 
-Extension my fail in same cases. However, the failure may not break current page.
+* Visit a page with an address form.
+* Click on the extension icon. If prompted to allow access to your current location, click OK.
+* The address form will be filled with the address at your current location.
+
+
+# Limitations
 
 * Only English and Czech pages are supported. 
-* Same inputs may not be recognized properly. Especially those, which are not properly annotated.
+* Some fields may not be recognized properly, especially those that are improperly labeled.
+* Fields using dropdown lists (e.g. for State or Country) are not filled.
