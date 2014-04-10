@@ -164,7 +164,7 @@ var localJQuery = $.noConflict(true);
                 }
             });
         } else {
-            alert('Any suitable input element wasn\'t detected!');
+            alert('No address fields were detected.');
         }
     }
 
