@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "AddressFiller",
   "author": "Jan Dědeček",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Address Filler makes it quick and easy to fill in an address form with the address at your current location. It uses your phone's GPS support to determine the current location.",
   "icons": {
     "80": "images/icon.png"
